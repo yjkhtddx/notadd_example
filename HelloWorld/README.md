@@ -1,6 +1,6 @@
 # notadd Hello World 项目
 
-## 1,ts环境配置
+## 1.ts环境配置
 
 在tsconfig.json中开启experimentalDecorators和emitDecoratorMetadata配置
 
@@ -9,7 +9,7 @@
 "emitDecoratorMetadata": true,
 ```
 
-## 2,创建AppModule
+## 2.创建AppModule
 
 ### 安装@notadd/graphql库
 
@@ -40,7 +40,7 @@ class AppModule implements OnModuleInit {
 }
 ```
 
-## 3,启动设置(node环境)
+## 3.启动设置(node环境)
 
 ### 安装@notadd/core库
 
@@ -118,7 +118,7 @@ export class HelloWorld {
 
 ```
 
-## 5 HelloWorld注入到AppModule中
+## 5.HelloWorld注入到AppModule中
 
 ``` typescript
 import { HelloWorld } from 'HelloWorld';
