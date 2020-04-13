@@ -1,0 +1,19 @@
+{
+    "eslint.enable": true,  //是否开启vscode的eslint
+    "eslint.options": {
+        "extensions":[
+            ".js",
+            ".vue",
+            ".ts",
+            ".tsx"
+        ]
+    },
+    "eslint.validate": [
+        "javascript",
+        "typescript",
+        "html",
+        "vue",
+        "typescriptreact"
+    ],
+    "editor.wordWrap": "on"
+}

@@ -1,0 +1,43 @@
+scalar Upload
+
+scalar Any
+
+scalar BigInt
+
+scalar Date
+
+scalar Email
+
+scalar Ipv4
+
+scalar Ipv6
+
+scalar Mobile
+
+scalar Object
+
+scalar URL
+
+scalar ObjectLiteral
+
+scalar Empty
+
+scalar Float
+
+scalar Undefined
+
+scalar Void
+
+type Output {
+  "HelloWorld 返回信息"
+  message: String!
+}
+
+input Input {
+  "Hello World 请求信息"
+  name: String!
+}
+
+type Query {
+  helloworld(input: Input!): Output!
+}

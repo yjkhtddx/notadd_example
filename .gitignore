@@ -1,0 +1,5 @@
+/**/.env
+/**/node_modules
+/**/notadd.lock
+/**/yarn.lock
+/**/package-lock.json
